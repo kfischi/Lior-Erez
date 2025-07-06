@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>עו"ד ליאור קלואי ארז</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header / Nav -->
+  <header class="fixed top-0 inset-x-0 bg-white bg-opacity-80 backdrop-blur z-50">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <h1 class="text-xl font-bold">עו"ד ליאור קלואי ארז</h1>
+      <nav>
+        <ul class="flex space-x-6 rtl:space-x-reverse">
+          <li><a href="#about" class="hover:underline">אודות</a></li>
+          <li><a href="#services" class="hover:underline">שירותים</a></li>
+          <li><a href="#articles" class="hover:underline">מאמרים</a></li>
+          <li><a href="#podcast" class="hover:underline">פודקאסט</a></li>
+          <li><a href="#contact" class="hover:underline">צור קשר</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-screen bg-cover bg-center" style="background-image:url('path/to/hero-image.jpg')">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="container mx-auto h-full flex flex-col justify-center items-center text-center text-white px-4">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">ליווי מקצועי בכל הליך</h2>
+      <p class="text-lg md:text-2xl max-w-2xl">ייצוג בפלילי, תעבורה, לשון הרע ועוד עם ניסיון של מעל 20 שנים.</p>
+      <a href="#contact" class="mt-8 inline-block bg-gold-600 hover:bg-gold-700 text-white py-3 px-6 rounded-lg">לקביעת פגישה</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">אודות</h3>
+      <p class="max-w-3xl mx-auto mb-4">עו"ד ליאור קלואי ארז היא בעלת תואר B.A בסוציולוגיה ואנתרופולוגיה מאוניברסיטת תל־אביב ו-L.L.B מהמכללה למינהל. התמחתה בפרקליטות הפלילית, מחוז תל־אביב, ופועלת כעורכת דין מאז 2005.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-gray-50 py-20">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-12">שירותים</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-2xl font-semibold mb-2">פלילי ותעבורה</h4>
+          <p>ליווי מלא בהליך הפלילי, ייצוג נאשמים וייצוג נפגעי עבירה.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-2xl font-semibold mb-2">לשון הרע</h4>
+          <p>ייצוג תובעים ונתבעים בתביעות השמצה ופגיעה בשם הטוב.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+          <h4 class="text-2xl font-semibold mb-2">דיני עבודה</h4>
+          <p>סכסוכי עבודה, ייצוג עובדים ומעסיקים.</p>
+        </div>
+        <!-- הוסף שירותים נוספים כאן -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Articles / Blog -->
+  <section id="articles" class="py-20">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-12">מאמרים</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- פוסט לדוגמה -->
+        <article class="bg-white rounded-lg shadow hover:shadow-lg transition p-6">
+          <h5 class="text-xl font-bold mb-2">כותרת המאמר</h5>
+          <p class="mb-4">תקציר קצר של המאמר עם קריאה להמשך קריאה.</p>
+          <a href="#" class="text-gold-600 hover:underline">למאמר המלא</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Podcast -->
+  <section id="podcast" class="bg-gray-50 py-20 text-center">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-6">פודקאסט</h3>
+      <p class="mb-8">האזינו לפודקאסט שלנו עם מומחים מהשורה הראשונה.</p>
+      <!-- Embeds from Spotify/Apple -->
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h3 class="text-3xl font-bold mb-6">צור קשר</h3>
+      <form class="max-w-xl mx-auto space-y-4">
+        <input type="text" placeholder="שם מלא" class="w-full p-3 border rounded" required>
+        <input type="email" placeholder="אימייל" class="w-full p-3 border rounded" required>
+        <textarea placeholder="הודעה" rows="5" class="w-full p-3 border rounded" required></textarea>
+        <button type="submit" class="bg-gold-600 hover:bg-gold-700 text-white py-3 px-6 rounded-lg">שלח</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 עו"ד ליאור קלואי ארז. כל הזכויות שמורות.</p>
+    </div>
+  </footer>
+</body>
+</html>
